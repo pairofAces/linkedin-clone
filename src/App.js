@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       {/* These are the components I will be building */}
 
       {/* Header */}
+      <Header/>
+
       {/* App Body */}
       {/* Sidebar */}
       {/* Feed */}
