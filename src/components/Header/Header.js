@@ -8,7 +8,7 @@ function Header() {
             <h1>This is the header component</h1>
 
             <div className="header_left">
-                <img src="" alt=""/>
+                <img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" alt=""/>
 
                 <div className="header_search">
                     {/* search icon from material UI */}
