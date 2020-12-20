@@ -5,7 +5,6 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <h1>Making a LinkedIn Clone Part 1</h1>
 
       {/* These are the components I will be building */}
 
