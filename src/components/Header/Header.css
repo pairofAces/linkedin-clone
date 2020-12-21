@@ -1,5 +1,10 @@
 .header {
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .header_left {
@@ -26,4 +31,8 @@
     outline: none;
     border: none;
     background: none;
+}
+
+.header_right {
+    display: flex;
 }
