@@ -6,15 +6,13 @@ function App() {
   return (
     <div className="App">
 
+      <Header/>
       {/* These are the components I will be building */}
 
-      {/* Header */}
-      <Header/>
-
       {/* App Body */}
-      {/* Sidebar */}
-      {/* Feed */}
-      {/* Widgets */}
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets */}
 
     </div>
   );
