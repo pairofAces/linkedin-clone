@@ -1,12 +1,15 @@
+import { Avatar } from '@material-ui/core';
 import React from 'react';
 import './Sidebar.css';
 
 function Sidebar() {
     return (
         <div className="sidebar">
-            <h1>This is the sidebar component</h1>
             <div className="sidebar_top">
                 <img src="" alt=""/>
+                <Avatar />
+                <h2>Karan S. Chauhan</h2>
+                <h4>karanchauhan16@gmail.com</h4>
             </div>
         </div>
     )
