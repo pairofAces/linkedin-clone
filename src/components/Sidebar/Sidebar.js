@@ -6,7 +6,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar_top">
-                <img src="" alt=""/>
+                <img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt=""/>
                 <Avatar />
                 <h2>Karan S. Chauhan</h2>
                 <h4>karanchauhan16@gmail.com</h4>
