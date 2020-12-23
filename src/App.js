@@ -11,7 +11,7 @@ function App() {
       {/* These are the components I will be building */}
 
       {/* App Body */}
-      <div classname="app_body">
+      <div className="app_body">
         <Sidebar/>
         {/* Feed */}
         {/* Widgets */}
