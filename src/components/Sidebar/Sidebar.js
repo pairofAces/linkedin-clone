@@ -23,10 +23,10 @@ function Sidebar() {
                     <p>Connections</p>
                     <p className="sidebar_statNumber">9,000+</p>
                 </div>
+            </div>
 
-                <div className="sidebar_bottom">
-                    <p>Recent</p>
-                </div>
+            <div className="sidebar_bottom">
+                <p>Recent</p>
             </div>
         </div>
     )
