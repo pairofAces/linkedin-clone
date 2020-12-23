@@ -31,3 +31,19 @@
     border-top-right-radius: 10px;
     object-fit: cover;
 }
+
+.sidebar_stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_stat > p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar_statNumber {
+    
+}
