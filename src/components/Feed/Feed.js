@@ -10,6 +10,10 @@ function Feed() {
                 inputs within the top feed section */}
                 <div className="feed_input">
                     <CreateIcon />
+                    <form>
+                        <input type="text"/>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
