@@ -12,6 +12,13 @@ import Post from './Post';
 function Feed() {
     const [posts, setPosts] = useState([]);
 
+    const sendPost = (e) => {
+        e.preventDefault();
+
+        // working on getting firebase integrated at this point
+        // to handle the posts 'backend'
+    }
+
     return (
         <div className="feed">
             <div className="feed_inputContainer">
@@ -21,7 +28,7 @@ function Feed() {
                     <CreateIcon />
                     <form>
                         <input type="text"/>
-                        <button type="submit">Send</button>
+                        <button onClick={sendPost} type="submit">Send</button>
                     </form>
                 </div>
                 <div className="feed_inputOptions">
