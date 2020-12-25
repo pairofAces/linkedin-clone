@@ -15,6 +15,11 @@ function Feed() {
                         <button type="submit">Send</button>
                     </form>
                 </div>
+                <div className="feed_inputOptions">
+                    {/* this will be where the input options are, for example,
+                    if I want to include a pic or a link, etc... */}
+                    
+                </div>
             </div>
         </div>
     )
