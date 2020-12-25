@@ -3,6 +3,10 @@ import './Feed.css';
 import CreateIcon from '@material-ui/icons/Create';
 import InputOption from './InputOption';
 import ImageIcon from '@material-ui/icons/Image';
+import SubscriptionIcon from '@material-ui/icons/Subscriptions';
+import EventNoteIcon from '@material-ui/icons/EventNote';
+import CalenderViewDayIcon from '@material-ui/icons/CalendarViewDay';
+
 
 function Feed() {
     return (
@@ -21,6 +25,9 @@ function Feed() {
                     {/* this will be where the input options are, for example,
                     if I want to include a pic or a link, etc... */}
                     <InputOption Icon={ImageIcon} title="Photo" color="#7085F9"/>
+                    <InputOption Icon={SubscriptionIcon} title="Video" color="#E7A33E"/>
+                    <InputOption Icon={EventNoteIcon} title="Event" color="#C0CBCD"/>
+                    <InputOption Icon={CalenderViewDayIcon} title="Write article" color="#7FC15E"/>
                 </div>
             </div>
         </div>
