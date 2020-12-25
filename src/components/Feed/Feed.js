@@ -6,6 +6,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import SubscriptionIcon from '@material-ui/icons/Subscriptions';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import CalenderViewDayIcon from '@material-ui/icons/CalendarViewDay';
+import Post from './Post';
 
 
 function Feed() {
@@ -32,7 +33,7 @@ function Feed() {
             </div>
 
             {/* this is where the posts will be */}
-            
+            <Post name="Karan S. Chauhan" description="this is a test" message="this is working"/>
         </div>
     )
 }
