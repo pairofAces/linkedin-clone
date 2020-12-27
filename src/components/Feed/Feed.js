@@ -11,12 +11,18 @@ import { db } from '../Firebase/Firebase';
 
 
 function Feed() {
+    const [input, setInput] = useState('');
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        db.collection("posts").onSnapshot((snapshot) => {
-            
-        })
+        db.collection("posts").onSnapshot((snapshot) => 
+            setPosts(
+                snapshot.docs.map((doc) => ({
+                    id: doc.id,
+                    data: doc.data(),
+                }))
+            )
+        );
     }, [])
 
     const sendPost = (e) => {
@@ -24,6 +30,12 @@ function Feed() {
 
         // working on getting firebase integrated at this point
         // to handle the posts 'backend'
+
+        db.collection('posts').add ({
+            name: "Karan S. Chauhan",
+            description: "This is a test, let's see if this works",
+            message: input
+        })
     }
 
     return (
@@ -34,7 +46,7 @@ function Feed() {
                 <div className="feed_input">
                     <CreateIcon />
                     <form>
-                        <input type="text"/>
+                        <input value={input} onChanage={(e) => setInput(e.target.value)} type="text"/>
                         <button onClick={sendPost} type="submit">Send</button>
                     </form>
                 </div>
