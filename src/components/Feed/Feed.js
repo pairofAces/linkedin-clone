@@ -8,6 +8,7 @@ import EventNoteIcon from '@material-ui/icons/EventNote';
 import CalenderViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import Post from './Post';
 import { db } from '../Firebase/Firebase';
+import firebase from 'firebase';
 
 
 function Feed() {
@@ -34,7 +35,9 @@ function Feed() {
         db.collection('posts').add ({
             name: "Karan S. Chauhan",
             description: "This is a test, let's see if this works",
-            message: input
+            message: input,
+            photoUrl: '',
+            timestamp: firebase.firestore.FieldValue.serverTimestamp()
         })
     }
 
