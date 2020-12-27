@@ -6,3 +6,8 @@ const firebaseConfig = {
   messagingSenderId: "657662109095",
   appId: "1:657662109095:web:d69cdfaea23afc4dcf0282"
 };
+
+//the following line of code sets the connection b/w the app and the database
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+const auth = firebase.auth();
