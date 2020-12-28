@@ -60,7 +60,7 @@ function Feed() {
             </div>
 
             {/* this is where the posts will be */}
-            {posts.map(({ id, data: { name, description, message, photoUrl } }) => {
+            {posts.map(({ id, data: { name, description, message, photoUrl } }) => (
                 <Post 
                     key={id}
                     name={name}
@@ -68,8 +68,8 @@ function Feed() {
                     message={message}
                     photoUrl={photoUrl}
                 />
-            })}
-            <Post name="Karan S. Chauhan" description="this is a test" message="this is working"/>
+            ))}
+            
         </div>
     )
 }
