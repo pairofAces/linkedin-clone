@@ -4,7 +4,11 @@ import './Login.css';
 
 function Login() {
     const register = () => {
-        
+
+    }
+
+    const signIn = () => {
+
     }
 
     return (
@@ -22,7 +26,7 @@ function Login() {
 
                 <input placeholder="Password" type="password"/>
 
-                <button>Sign In</button>
+                <button type="submit" onClick={signIn}>Sign In</button>
             </form>
 
             <p>Not a member?
