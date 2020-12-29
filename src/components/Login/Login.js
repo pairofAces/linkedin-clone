@@ -29,7 +29,7 @@ function Login() {
                 <button type="submit" onClick={signIn}>Sign In</button>
             </form>
 
-            <p>Not a member?
+            <p>Not a member?{" "}
                 <span className="login_register" onClick={register}>Register Now</span>
             </p>
         </div>
