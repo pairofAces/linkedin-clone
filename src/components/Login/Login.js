@@ -1,14 +1,20 @@
 import React from 'react';
 import './Login.css';
+import { auth } from '../Firebase/Firebase.js';
 // import linkedUp from '../images/LinkedUp.png';
 
 function Login() {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [name, setName] = useState("");
+
     const register = () => {
 
     }
 
-    const signIn = () => {
-
+    const signIn = (e) => {
+        e.preventDefault();
+        // auth
     }
 
     return (
