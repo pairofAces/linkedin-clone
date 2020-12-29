@@ -3,6 +3,10 @@ import './Login.css';
 // import linkedUp from '../images/LinkedUp.png';
 
 function Login() {
+    const register = () => {
+        
+    }
+
     return (
         <div className="login">
             {/* <h1>You're not logged in right now</h1> */}
@@ -11,7 +15,19 @@ function Login() {
 
             <form>
                 <input placeholder="Full Name {Required if registering}" type="text"/>
+
+                <input placeholder="Profile Picture URL (Optional)" type="text"/>
+
+                <input placeholder="Email" type="email"/>
+
+                <input placeholder="Password" type="password"/>
+
+                <button>Sign In</button>
             </form>
+
+            <p>Not a member?
+                <span className="login_register" onClick={register}>Register Now</span>
+            </p>
         </div>
     )
 }
