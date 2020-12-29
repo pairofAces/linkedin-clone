@@ -9,9 +9,6 @@ function App() {
     <div className="app">
 
       <Header/>
-      {/* These are the components I will be building */}
-
-      {/* App Body */}
       <div className="app_body">
         <Sidebar/>
         <Feed />
