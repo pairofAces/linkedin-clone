@@ -31,7 +31,8 @@ function Login() {
                     photoURL: profilePic
                 }));
             });
-        });
+        })
+        .catch((error) => alert(error));
     };
 
     const signIn = (e) => {
