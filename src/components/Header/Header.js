@@ -14,6 +14,7 @@ import { logout } from '../../features/userSlice';
 
 
 function Header() {
+    // const user = useSelector(selectUser);
 
     const dispatch = useDispatch();
 
@@ -40,7 +41,7 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs"/>
                 <HeaderOption Icon={ChatIcon} title="Messaging"/>
                 <HeaderOption Icon={NotificationsIcon} title="Notifications"/>
-                <HeaderOption avatar={avatar} title="me" onClick={logoutOfApp}/>
+                <HeaderOption avatar={true} title="me" onClick={logoutOfApp}/>
             </div>     
         </div>
     )
