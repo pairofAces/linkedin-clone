@@ -1,4 +1,4 @@
-# Emporium - Amazon Clone
+# LinkedIn Clone
 <p>
 A web application engineered and designed to be a LinkedIn clone. Created with React, Redux, and Google Firebase.  
 
