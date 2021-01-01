@@ -48,10 +48,6 @@ Users can create a profile with their full name, profile picture URL (optional),
 
 - Users can see the posts created by other users in real-time.
 
-<!-- Users can browse through the shop or sign up/in through the links in the navigation bar above.  
-
-- Users can create an account by entering their credentials in the input boxes, then clicking the "Create your Emporium account" button. -->
-
 
  Enjoy the App :)
 
@@ -60,4 +56,5 @@ Users can create a profile with their full name, profile picture URL (optional),
 
 # Sources
 <a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>  
-<a href='https://firebase.google.com/docs/'>Google Firebase documentation </a>  
+<a href='https://redux.js.org/introduction/getting-started'>Redux documentation</a> 
+<a href='https://firebase.google.com/docs/'>Google Firebase documentation </a> 
