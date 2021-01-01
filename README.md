@@ -42,6 +42,12 @@ Users can use this application on their own accord and follow their own decision
 
 Users can create a profile with their full name, profile picture URL (optional), email, and password.
 
+- Once a user registers, they will be taken to the main component -> the Feed.
+
+- Users can create a message and post it to the feed.
+
+- Users can see the posts created by other users in real-time.
+
 <!-- Users can browse through the shop or sign up/in through the links in the navigation bar above.  
 
 - Users can create an account by entering their credentials in the input boxes, then clicking the "Create your Emporium account" button. -->
