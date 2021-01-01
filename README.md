@@ -36,9 +36,11 @@ This app was engineered to gain knowledge on using firebase in full stack applic
 
 # User Guide 
 <p>
-Users can either use this application on their own accord and follow their own decisions or use this comprehensive <strong>guide</strong>:
+Users can use this application on their own accord and follow their own decisions or use this comprehensive <strong>guide</strong>:
 <br>
 <br>
+
+Users can create a profile with their full name, profile picture URL (optional), email, and password.
 
 <!-- Users can browse through the shop or sign up/in through the links in the navigation bar above.  
 
