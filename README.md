@@ -56,5 +56,5 @@ Users can create a profile with their full name, profile picture URL (optional),
 
 # Sources
 <a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>  
-<a href='https://redux.js.org/introduction/getting-started'>Redux documentation</a> 
+<a href='https://redux.js.org/introduction/getting-started'>Redux documentation</a> <br>
 <a href='https://firebase.google.com/docs/'>Google Firebase documentation </a> 
