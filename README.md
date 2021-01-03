@@ -32,7 +32,7 @@ This app was engineered to gain knowledge on using firebase in full stack applic
 
 # Demo
 <a href="" target="_blank"> Check it out yourself by clicking here!</a>  
-![LinkedIn-Clone]()
+![LinkedUp](https://tenor.com/bvhVa.gif)
 
 # User Guide 
 <p>
