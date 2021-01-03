@@ -3,11 +3,11 @@ import './App.css';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import Feed from './components/Feed/Feed';
-import { useDispatch, useSelector } from 'react-redux';
-import { login, logout, selectUser } from './features/userSlice';
 import Login from './components/Login/Login';
-import { auth } from './components/Firebase/Firebase';
 import Widgets from './components/Widgets/Widgets';
+import { auth } from './components/Firebase/Firebase';
+import { login, logout, selectUser } from './features/userSlice';
+import { useDispatch, useSelector } from 'react-redux';
 
 function App() {
   const user = useSelector(selectUser);

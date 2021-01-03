@@ -3,7 +3,6 @@ import './Login.css';
 import { auth } from '../Firebase/Firebase.js';
 import { useDispatch } from 'react-redux';
 import { login } from '../../features/userSlice';
-// import linkedUp from '../images/LinkedUp.png';
 
 function Login() {
     const [email, setEmail] = useState("");
@@ -50,8 +49,6 @@ function Login() {
 
     return (
         <div className="login">
-            {/* <h1>You're not logged in right now</h1> */}
-            {/* <img src={linkedUp} alt=""/> */}
             <img src="https://news.hitb.org/sites/default/files/styles/large/public/field/image/500px-LinkedIn_Logo.svg__1.png?itok=q_1R0Vks" alt=""/>
 
             <form>

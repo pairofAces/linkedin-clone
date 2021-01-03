@@ -27,8 +27,6 @@ function Sidebar() {
             </div>
 
             <div className="sidebar_stats">
-                {/* now I'll create individual stat divs for each stat
-                I want to display */}
                 <div className="sidebar_stat">
                     <p>Who viewed you</p>
                     <p className="sidebar_statNumber">1,738</p>

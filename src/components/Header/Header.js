@@ -7,15 +7,12 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import avatar from '../images/linkedin pic.jpg'
 import { useDispatch } from 'react-redux';
 import { auth } from '../Firebase/Firebase';
 import { logout } from '../../features/userSlice';
 
 
 function Header() {
-    // const user = useSelector(selectUser);
-
     const dispatch = useDispatch();
 
     const logoutOfApp = () => {

@@ -20,4 +20,4 @@ function HeaderOption({avatar, Icon, title, onClick }) {
     )
 }
 
-export default HeaderOption
+export default HeaderOption;
