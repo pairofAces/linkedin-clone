@@ -31,8 +31,8 @@ This app was engineered to gain knowledge on using firebase in full stack applic
 </ul>
 
 # Demo
-<!-- <a href="https://clone-d0660.web.app/" target="_blank"> Check it out yourself by clicking here!</a>  
-![Emporium](https://media.giphy.com/media/X2eKQ9hrAzjRRijHNd/giphy.gif) -->
+<a href="" target="_blank"> Check it out yourself by clicking here!</a>  
+![LinkedIn-Clone]()
 
 # User Guide 
 <p>
